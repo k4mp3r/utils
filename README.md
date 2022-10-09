@@ -1,6 +1,6 @@
 # Collection of Useful Utilities
 
-#### Bitwarden
+## Bitwarden
 * This script is designed to take a bitwarden export file, remove duplicates, and sort logins into folders based on password.
 * To use this script
   * export your bitwarden vault onto your local machine.

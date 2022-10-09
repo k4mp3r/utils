@@ -1,17 +1,5 @@
 /**
- * This script is designed to take a bitwarden export file, remove duplicates, and sort logins into folders based on
- * password.
- * 
- * To use this script, export your bitwarden vault onto your local machine. Place in this directory and rename to 
- * bitwarden_export.json then run `node bitwardenReview.js` The output file `bitwarden_import.json` will have removed any
- * duplicates and sort logins into folders as defined below.
- * 
- * IMPORTANT: bitwarden imports do not update existing logins, so you will have duplicates. I recommend exporting, running this script,
- * importing. Verify everything is working as desired, all items should now have duplicates with the new items add the the correct folders.
- * If everything works, delete all items and folders from the vault and reimport the same file and you should be good to go.
- * 
- * VERY IMPORTANT: Once done, delete the import and export files from your computer AND empty the trash/recycle bin
- * VERY VERY IMPORTANT: DO NOT COMMIT PASSWORD VALUES TO GITHUB. UPDATE, RUN THE SCRIPT, THEN REVERT.
+ * READ THE README AND ALL COMMENTS BEFORE PROCEEDING!!!
  */
 
 

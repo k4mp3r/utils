@@ -1,0 +1,234 @@
+{
+	// VS Code BBCode Snippets for World Anvil BBCode
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+
+	// HEADERS
+
+	"h1": {
+		"prefix": "h1",
+		"body": [
+			"[h1]$0[/h1]",
+		],
+		"description": "Header"
+	},
+	"h2": {
+		"prefix": "h2",
+		"body": [
+			"[h2]$0[/h2]",
+		],
+		"description": "Header"
+	},
+	"h3": {
+		"prefix": "h3",
+		"body": [
+			"[h3]$0[/h3]",
+		],
+		"description": "Header"
+	},
+	"h4": {
+		"prefix": "h4",
+		"body": [
+			"[h4]$0[/h4]",
+		],
+		"description": "Header"
+	},
+	
+	// FONT EFFECTS
+
+	"bold": {
+		"prefix": "bold",
+		"body": [
+			"[b]$0[/b]",
+		],
+		"description": "Bold"
+	},
+	"italics": {
+		"prefix": "italics",
+		"body": [
+			"[i]$0[/i]",
+		],
+		"description": "italics"
+	},
+	"underline": {
+		"prefix": "underline",
+		"body": [
+			"[u]$0[/u]",
+		],
+		"description": "Underline"
+	},
+	"strikethrough": {
+		"prefix": "strikethrough",
+		"body": [
+			"[s]$0[/s]",
+		],
+		"description": "strikethrough"
+	},
+	"redacted": {
+		"prefix": "redacted",
+		"body": [
+			"[redacted:$0]",
+		],
+		"description": "redacted"
+	},
+	"small": {
+		"prefix": "small",
+		"body": [
+			"[small]$0[/small]",
+		],
+		"description": "small"
+	},
+	"superscript": {
+		"prefix": "superscript",
+		"body": [
+			"[sup]$0[/sup]",
+		],
+		"description": "superscript"
+	},
+	"subscript": {
+		"prefix": "subscript",
+		"body": [
+			"[sub]$0[/sub]",
+		],
+		"description": "subscript"
+	},
+	"drop cap": {
+		"prefix": "dropcap",
+		"body": [
+			"[dc]$0[/dc]",
+		],
+		"description": "drop cap"
+	},
+
+	// LAYOUT BOXES
+
+	"quote": {
+		"prefix": "quote",
+		"body": [
+			"[quote]$0[/quote]",
+		],
+		"description": "quote"
+	},
+	"spoiler": {
+		"prefix": "spoiler",
+		"body": [
+			"[spoiler]${1:${TM_SELECTED_TEXT}}|$0[/spoiler]",
+		],
+		"description": "spoiler"
+	},
+	"aloud": {
+		"prefix": "aloud",
+		"body": [
+			"[br]",
+			"[aloud]$0[/aloud]",
+		],
+		"description": "aloud"
+	},
+	"code": {
+		"prefix": "code",
+		"body": [
+			"[code]$0[/code]",
+		],
+		"description": "code"
+	},
+	"dice": {
+		"prefix": "dice",
+		"body": [
+			"[section:box-dc]$0[/section]",
+		],
+		"description": "Inline style for DC info."
+	}
+
+	// Tooltips
+	"tooltip": {
+		"prefix": "code",
+		"body": [
+			"[tooltip:$0]${1:${TM_SELECTED_TEXT}}[/tooltip]",
+		],
+		"description": "tooltip"
+	},
+
+	// Paragraphs & Separators
+
+	"indent": {
+		"prefix": "tab",
+		"body": [
+			"[in]$0[/in]",
+		],
+		"description": "indent"
+	},
+	"divider": {
+		"prefix": "divider",
+		"body": [
+			"[hr]",
+		],
+		"description": "dividers"
+	},
+	"break": {
+		"prefix": "break",
+		"body": [
+			"[br]",
+		],
+		"description": "break"
+	},
+
+	// Text alignment
+
+	"left": {
+		"prefix": "left",
+		"body": [
+			"[left]",
+		],
+		"description": "left"
+	},
+	"center": {
+		"prefix": "center",
+		"body": [
+			"[center]",
+		],
+		"description": "center"
+	},
+	"justify": {
+		"prefix": "justify",
+		"body": [
+			"[justify]$0[/justify]",
+		],
+		"description": "justify"
+	},
+	"concol": {
+		"prefix": "concol",
+		"body": [
+			"[concol]$0[/concol]",
+		],
+		"description": "concol"
+	},
+
+	// Lists
+
+	"unordered list": {
+		"prefix": "ulist",
+		"body": [
+			"[ul]",
+			"\t[li]$0[/li]",
+			"[/ul]",
+		],
+		"description": "unordered list"
+	},
+	"ordered list": {
+		"prefix": "olist",
+		"body": [
+			"[ol]",
+			"\t[li]$0[/li]",
+			"[/ol]",
+		],
+		"description": "ordered list"
+	},
+}
